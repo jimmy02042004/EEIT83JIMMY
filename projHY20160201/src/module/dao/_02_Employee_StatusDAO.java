@@ -62,7 +62,7 @@ public class _02_Employee_StatusDAO implements _02_Employee_Status_InterfaceDAO{
 //			bean.setStatus_name("12345");
 //			dao.update(bean);
 			//Delete
-			dao.delete(4);
+//			dao.delete(4);
 			
 			
 			HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
