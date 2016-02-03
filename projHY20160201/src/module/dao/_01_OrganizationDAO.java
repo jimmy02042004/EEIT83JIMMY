@@ -73,12 +73,6 @@ public class _01_OrganizationDAO implements _01_Organization_InterfaceDAO{
 			//Delete
 //			dao.delete("DEP0011");
 
-			System.out.println("11");
-
-			System.out.println("22");
-
-			System.out.println("33");
-
 		
 			HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
 		} finally {

@@ -12,5 +12,6 @@ public interface _07_Store_InterfaceDAO {
  	public _07_StoreVO findById(Integer store_no);
 
 	public List<_07_StoreVO> getAll();
+	List<_07_StoreVO> getStoreName();
 	
 }

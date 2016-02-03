@@ -77,7 +77,7 @@ public class _06_Store_ClassDAO implements _06_Store_Class_InterfaceDAO {
 			//delete
 //          dao.delete(2);
 			
-          //update要注意-------------------------------------
+          //update閬釣���-------------------------------------
 
 //			_06_Store_ClassVO first=new _06_Store_ClassVO();
 //     		 first.setClass_no(3);
@@ -87,7 +87,7 @@ public class _06_Store_ClassDAO implements _06_Store_Class_InterfaceDAO {
 //     		 dao.update(bean);
 
 			
-			 //insert要注意---------------
+			 //insert閬釣���---------------
 	   		
 //	   		 bean.setClass_name("asfasf");
 //	   		 dao.insert(bean);

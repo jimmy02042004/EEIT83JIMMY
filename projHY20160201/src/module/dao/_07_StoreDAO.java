@@ -59,7 +59,7 @@ public class _07_StoreDAO implements _07_Store_InterfaceDAO {
 			_07_StoreVO bean = new _07_StoreVO();
 
 //            getAll
-			System.out.println(dao.getAll());
+//			System.out.println(dao.getAll());
 //
 //			// findById
 //			System.out.println(dao.findById(1));
@@ -92,6 +92,12 @@ public class _07_StoreDAO implements _07_Store_InterfaceDAO {
 		} finally {
 			HibernateUtil.closeSessionFactory();
 		}
+	}
+
+	@Override
+	public List<_07_StoreVO> getStoreName() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
